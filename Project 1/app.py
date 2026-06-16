@@ -638,7 +638,7 @@ def render_landing_page() -> str:
 
 
 def render_portal_page(page_role: str) -> str:
-    page_title = "StockPulse Admin Portal" if page_role == "admin" else "StockPulse User Portal"
+    page_title = "Admin Page - StockPulse" if page_role == "admin" else "User Page - StockPulse"
     page_subtitle = "Admin controls, provisioning, and inventory access in one place." if page_role == "admin" else "Start with registration, verify OTP, then sign in to continue."
     user_register_card = "" if page_role != "user" else """
                     <section class="card flow-card" data-step="register">
