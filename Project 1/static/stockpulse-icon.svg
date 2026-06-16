@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">StockPulse icon</title>
+  <desc id="desc">A rounded square icon with a pulse line and upward trend mark.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="55%" stop-color="#0b1220"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="pulse" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#22c55e"/>
+    </linearGradient>
+  </defs>
+  <rect x="24" y="24" width="464" height="464" rx="112" fill="url(#bg)"/>
+  <rect x="44" y="44" width="424" height="424" rx="92" fill="none" stroke="rgba(148,163,184,0.16)" stroke-width="4"/>
+  <path d="M116 310h46l35-72 41 132 40-88h118" fill="none" stroke="url(#pulse)" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="164" cy="310" r="14" fill="#38bdf8"/>
+  <circle cx="238" cy="370" r="14" fill="#22c55e"/>
+  <path d="M300 176l42 42 68-68" fill="none" stroke="#e2e8f0" stroke-width="26" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M300 176l42 42 68-68" fill="none" stroke="url(#pulse)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
